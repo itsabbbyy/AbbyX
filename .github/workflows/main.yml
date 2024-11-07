@@ -24,7 +24,7 @@ jobs:
 
       - name: Install required packages
         run: |
-          pip install telebot pymongo aiohttp
+          pip install flask
 
       - name: Run v.py
         run: python3 v.py
